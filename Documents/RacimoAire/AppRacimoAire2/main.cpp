@@ -1,0 +1,11 @@
+#include "racimoaire2.h"
+#include <QApplication>
+
+int main(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+    RacimoAire2 w;
+    w.show();
+
+    return a.exec();
+}

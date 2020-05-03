@@ -1,0 +1,12 @@
+#ifndef RACIMOHTTP_GLOBAL_H
+#define RACIMOHTTP_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(RACIMOHTTP_LIBRARY)
+#  define RACIMOHTTPSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define RACIMOHTTPSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // RACIMOHTTP_GLOBAL_H

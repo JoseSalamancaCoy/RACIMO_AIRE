@@ -1,0 +1,12 @@
+#ifndef CDATETIMER_GLOBAL_H
+#define CDATETIMER_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(CDATETIMER_LIBRARY)
+#  define CDATETIMERSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define CDATETIMERSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // CDATETIMER_GLOBAL_H

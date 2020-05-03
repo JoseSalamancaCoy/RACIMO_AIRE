@@ -1,0 +1,12 @@
+#ifndef NEXCONFIG_GLOBAL_H
+#define NEXCONFIG_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(NEXCONFIG_LIBRARY)
+#  define NEXCONFIGSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define NEXCONFIGSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // NEXCONFIG_GLOBAL_H

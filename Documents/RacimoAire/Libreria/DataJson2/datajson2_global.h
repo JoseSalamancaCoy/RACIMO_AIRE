@@ -1,0 +1,12 @@
+#ifndef DATAJSON2_GLOBAL_H
+#define DATAJSON2_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(DATAJSON2_LIBRARY)
+#  define DATAJSON2SHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define DATAJSON2SHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // DATAJSON2_GLOBAL_H

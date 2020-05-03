@@ -1,0 +1,12 @@
+#ifndef NEXOBJECT_GLOBAL_H
+#define NEXOBJECT_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(NEXOBJECT_LIBRARY)
+#  define NEXOBJECTSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define NEXOBJECTSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // NEXOBJECT_GLOBAL_H

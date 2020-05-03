@@ -1,0 +1,38 @@
+{
+    "id_estacion": "uis-10",
+    "nombre_estacion": "UIS-10",
+    "clase": "Calidad de Aire",
+    "tipo": "Profesional de bajo costo",
+    "activa": true,
+    "id_red": 1,
+    "descripcion": "Estación de pruebas con José Luis",
+    "longitud": "-73.12194",
+    "latitud": "7.140129",
+    "mediciones": [
+        {
+            "fecha_hora_med": "2018-08-21T17:33:00.000Z",
+            "id_parametro": "h",
+            "valor": 50
+        },
+        {
+            "fecha_hora_med": "2018-08-21T17:33:00.000Z",
+            "id_parametro": "p",
+            "valor": 50
+        },
+        {
+            "fecha_hora_med": "2018-08-21T17:33:00.000Z",
+            "id_parametro": "t",
+            "valor": 50
+        },
+        {
+            "fecha_hora_med": "2018-08-21T17:33:00.000Z",
+            "id_parametro": "pm10",
+            "valor": 50
+        },
+        {
+            "fecha_hora_med": "2018-08-21T17:33:00.000Z",
+            "id_parametro": "pm25",
+            "valor": 50
+        }
+    ]
+}

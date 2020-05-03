@@ -1,0 +1,12 @@
+#ifndef LOGSSYSTEM_GLOBAL_H
+#define LOGSSYSTEM_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(LOGSSYSTEM_LIBRARY)
+#  define LOGSSYSTEMSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define LOGSSYSTEMSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // LOGSSYSTEM_GLOBAL_H

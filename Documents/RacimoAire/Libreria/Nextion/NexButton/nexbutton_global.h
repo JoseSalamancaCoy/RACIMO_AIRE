@@ -1,0 +1,12 @@
+#ifndef NEXBUTTON_GLOBAL_H
+#define NEXBUTTON_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(NEXBUTTON_LIBRARY)
+#  define NEXBUTTONSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define NEXBUTTONSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // NEXBUTTON_GLOBAL_H

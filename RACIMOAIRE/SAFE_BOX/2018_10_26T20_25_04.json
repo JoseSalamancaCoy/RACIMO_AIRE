@@ -1,0 +1,34 @@
+{
+    "activa": true,
+    "clase": "Calidad de Aire",
+    "descripcion": "Estación Damaso Zapata",
+    "id_estacion": "clg_itsdz",
+    "id_red": 1,
+    "latitud": "7.138242",
+    "longitud": "-73.119559",
+    "mediciones": [
+        {
+            "fecha_hora_med": "2018-10-27T01:25:04.495Z",
+            "id_parametro": "alert",
+            "valor": "Inicio de App por cierre inesperado"
+        },
+        {
+            "fecha_hora_med": "2018-10-27T01:25:04.495Z",
+            "id_parametro": "alert",
+            "valor": "Falla al iniciar ADS1115"
+        },
+        {
+            "fecha_hora_med": "2018-10-27T01:25:04.494Z",
+            "id_parametro": "alert",
+            "valor": "Falla al iniciar IN219"
+        },
+        {
+            "fecha_hora_med": "2018-10-27T01:25:04.494Z",
+            "id_parametro": "alert",
+            "valor": "Falla al iniciar BME280"
+        }
+    ],
+    "nombre_estacion": "Instituto Tecnico superior Damaso Zapata",
+    "tipo": "Profesional de bajo costo"
+}
+

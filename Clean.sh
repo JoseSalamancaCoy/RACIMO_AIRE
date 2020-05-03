@@ -1,0 +1,9 @@
+sudo rm Daemon
+sudo rm instalador.sh
+sudo rm InstallWatchdog.sh
+sudo rm Documents 
+sudo rm RacimoAire3
+sudo rm RST.sh
+sudo rm temp.sh
+sudo rm watchdog.conf
+sudo rm watchdog.service

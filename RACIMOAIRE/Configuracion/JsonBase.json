@@ -1,0 +1,12 @@
+{
+    "id_estacion": "clg_comuneros",
+    "nombre_estacion": "Institucion Educativa Comuneros",
+    "clase": "Calidad de Aire",
+    "tipo": "Profesional de bajo costo",
+    "activa": true,
+    "id_red": 1,
+    "descripcion": "Estación Comuneros",
+    "longitud": "-73.128775",
+    "latitud": "7.136074"
+}
+

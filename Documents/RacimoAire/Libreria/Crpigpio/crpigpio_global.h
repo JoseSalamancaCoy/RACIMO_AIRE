@@ -1,0 +1,12 @@
+#ifndef CRPIGPIO_GLOBAL_H
+#define CRPIGPIO_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(CRPIGPIO_LIBRARY)
+#  define CRPIGPIOSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define CRPIGPIOSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // CRPIGPIO_GLOBAL_H
